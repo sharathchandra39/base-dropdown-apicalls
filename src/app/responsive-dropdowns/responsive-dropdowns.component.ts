@@ -97,7 +97,7 @@ export class ResponsiveDropdownsComponent implements OnInit {
   fetchUUIDResults(uuid: any) {
     this.apiRestService.fetchUUIDResults()
     .subscribe((data: string | any[])=> {
-      if(data && data.length > 0 ) {
+      if (data && data.length > 0 ) {
        
       }
     })
